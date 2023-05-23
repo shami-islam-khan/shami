@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="all logos 2/web-logo.png">
+    <title>Shami Islam Khan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/67fdaab8be.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images_Shami/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+<!-- ----------Type affect shami---------- -->
+                <h1>
+                    <a href="" class="typewrite" data-period="2000" data-type='[ "Web Designer", "Graphic Designer", "Artist", "Engineer", "Content Creator" , "World record holder"]'>
+                      <span class="wrap"></span>
+                    </a>
+                <br>
+                <!-- <p>Web Designer</p> -->
+                Hi, I'm <span>Shami</span><br>Islam Khan From <br> Bangladesh</h1>
+<!-- ----------Type affect shami---------- -->
+
+            </div>
+        </div>
+    </div>
+<!-- ----------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images_Shami/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <div></div>
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p>Hi, my name is Shami Islam Khan. I'm from Dhaka, Bangladesh. I build websites. I'm studying for my bachelor's degree in the CSE department at Brac University. I'm not a certified web designer. But I also possess some other significant knowledge. I can make projects by using Arduino. I'm a professional image and video editor; I can create stunning posters and logos; and I succeed in a variety of other sectors like YouTube, Instagram, and Facebook. I'm very patient when it comes to my work. For instance, I never missed a day of college; I achieved the Guinness World Record after two years of heartfelt effort; and I am a winner of numerous national and international competitions. When faced with difficulties, I relish the experience as a journey.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Achievements</p>
+                        <p class="tab-links" onclick="opentab('edutation')">Edutation</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing web/App interfaces.</li>
+
+                            <li><span>Robotics</span><br>Making projects by using Auduiono.</li>
+
+                            <li><span>Photography</span><br>Capturing wedding, wildlife, and festival photos by using a DSLR.</li>
+
+                            <li><span>Videography or cinematography</span><br>Capturing amazing videos and making professional trailers.</li>
+
+                            <li><span>Photo & video editing </span><br>Editing professionally by using lots of software and applications.</li>
+
+                            <li><span>Logo designing</span><br>Making logos by using Illustrator and others.</li>
+
+                            <li><span>Poster designing</span><br>Making posters by using Photoshop.</li>
+
+                            <li><span>Drawing portrait & sketching</span><br>Drawing professional sketches and human portraits.</li>
+
+<br>
+
+<!-- 222222222222222222222222222---logo slide ---2222222222222222222222222 -->
+
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f200;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  /* height: 7px;
+  width: 7px;
+  margin: 0 2px;
+  background-color: #bbbbbb00;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; */
+  display: none;
+}
+
+.active {
+  background-color: #71717100;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* @keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} */
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/* ---------Shami--------- */
+.fade-in-out {
+  opacity: 0;
+  animation: fade-in 1s ease-in forwards, fade-out 3s 1s ease-out forwards;
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<!-- <h2>Automatic Slideshow</h2> -->
+<!-- <p>Change image every 2 seconds:</p> -->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 17</div>
+  <br>
+  <img src="all logos 2/  (1).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Text</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 17</div>
+  <br>
+  <img src="all logos 2/  (2).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Two</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 17</div>
+  <br>
+  <img src="all logos 2/  (3).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 17</div>
+  <br>
+  <img src="all logos 2/  (4).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 17</div>
+  <br>
+  <img src="all logos 2/  (5).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 17</div>
+  <br>
+  <img src="all logos 2/  (6).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 17</div>
+  <br>
+  <img src="all logos 2/  (7).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 17</div>
+  <br>
+  <img src="all logos 2/  (8).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 17</div>
+  <br>
+  <img src="all logos 2/  (9).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">10 / 17</div>
+  <br>
+  <img src="all logos 2/  (10).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">11 / 17</div>
+  <br>
+  <img src="all logos 2/  (11).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">12 / 17</div>
+  <br>
+  <img src="all logos 2/  (12).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">13 / 17</div>
+  <br>
+  <img src="all logos 2/  (13).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">14 / 17</div>
+  <br>
+  <img src="all logos 2/  (14).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">15 / 17</div>
+  <br>
+  <img src="all logos 2/  (15).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">16 / 17</div>
+  <br>
+  <img src="all logos 2/  (16).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">17 / 17</div>
+  <br>
+  <img src="all logos 2/  (17).png" style="width:22%" class="fade-in-out">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3200); // Change image every 2 seconds
+}
+</script>
+
+
+<!--  222222222222222222222222222222222222222222222222222222222222222 -->
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Guinness World Record Holder</span><br>I set a Guinness World Record on May 6, 2022. The title of the record is Longest paper chain in three minutes (individual). Here is the link to my record <a href="images_Shami/gwd-img.jpg" target="_blank"><i class="fas fa-link" id="gwd-link-icon"></i></a></li>
+
+                            <li><span>Winner at CoronaThon19 (International Hackathon)</span><br>CoronaThon-19 is a "Hackathon on Combating the Coronavirus". I was first runner-up in the junior category. <a href="https://coronathon19.daffodilvarsity.edu.bd/about-us/" target="_blank"><i class="fas fa-link" id="gwd-link-icon"></i></a></li></li>
+
+                            
+                            <li><span>Finalist at the ICT Carnival</span><br>I was a participant in this ICT carnival as an individual. I was selected for the final for my unique project. But finally, the final was not held, and the competition was postponed for COVID-19. <a href="images_Shami/Short video (1).mp4"><i class="fas fa-link" id="gwd-link-icon"></i></a></li>
+
+
+                            <li><span>Content Creator at Youtube</span><br>I have worked as a content creator on YouTube since 2016. I got my first income from this platform. But, to focus fully on my studies, I stopped making videos. But still, I have 30 thousand subscribers. <a href="https://www.youtube.com/@BudgeT4YoU" target="_blank"><i class="fas fa-link" id="gwd-link-icon"></i></a></li>
+                            
+                            <li><span>Worked at a Mug Designer at Brac University</span><br>I designed a mug for an employer appreciation event. Which held at Brac University in 2023. <a href="images_Shami/mug.jpg" target="_blank"><i class="fas fa-link" id="gwd-link-icon"></i></a> </li>
+
+                            <li><span>Winner at all Drawing & Portrait Competitions</span><br>I participated in a lot of competitions, but I always got 1st place in my all drawing competition. I also get a gift from the respected V.C. sir for my outstanding portrait. <a href="https://www.facebook.com/daffodilcollege/photos/pcb.4288650771216844/4288635367885051/" target="_blank"><i class="fas fa-link" id="gwd-link-icon"></i></a></li>
+
+                            <li><span>Winner at Rubik's Cube Competition</span><br>I was able to set the 1st runner-up position in the Rubik's cube competition. I learned it by myself in under 3 days before the competition started. <a href="https://www.facebook.com/daffodilcollege/photos/pcb.4288650771216844/4288635164551738" target="_blank"><i class="fas fa-link" id="gwd-link-icon"></i></a></li>
+
+                            <li><span>Winner at Chemistry Olympiad</span><br>Actually, chemistry is one of my favorite subjects. mostly organic chemistry. I participated in this Olympiad without any preparation, but by the grace of Allah, I became the first runner-up in the competition. <a href="https://www.facebook.com/daffodilcollege/photos/pcb.4288650771216844/4288635121218409" target="_blank"><i class="fas fa-link" id="gwd-link-icon"></i></a></li>
+
+                            <li><span>Winner at Letter-Writing Competition </span><br>A Letter-Writing competition was held on February 21, 2018, at Daffodil International College. I was the second runner-up in that competition. <a href="images_Shami/award.jpg" target="_blank"><i class="fas fa-link" id="gwd-link-icon"></i></a></li>
+
+                            <li><span>Winner at Quiz Competitions</span><br>I was participating in this competition with a high fever. Although I was 2nd runner up in that competition. <a href="images_Shami/award.jpg" target="_blank"><i class="fas fa-link" id="gwd-link-icon"></i></a></li>
+
+                            <li><span>An article about me and my achievements has been posted on Wikipedia</span><br>For my records and achievements, an article was also posted in Weekepidia from my college. <a href="https://dic.edu.bd/creativity-will-lead-you-to-success/?fbclid=IwAR20R_AhmQsngVXZDPd_lOgiNVf5tutKIyGJv3L5DpQBD6UkiHT8UAlXcJk" target="_blank"><i class="fas fa-link" id="gwd-link-icon"></i></a></li>
+
+                            <li><span>Awarded For Work as a Co-Ordinator</span><br>I was a coordinator for an impressive online contest managed by Daffodil International College. For my successful work, I received an award. <a href="https://www.facebook.com/daffodilcollege/photos/gm.331444752039829/4212193438862578/" target="_blank"><i class="fas fa-link" id="gwd-link-icon"></i></a></li>
+
+                            <li><span>Awarded For Photography & Videography</span><br>I worked as a major photographer and videographer all my college life. So I was awarded from my college. I was also awarded for my photography at BRAC University. <a href="images_Shami/photography-award.jpg" target="_blank"><i class="fas fa-link" id="gwd-link-icon"></i></a></li>
+
+                            <li><span>Awarded For 100% Attendance</span><br>I started my college journey in the middle of 2018 and ended in January 2021. In these huge days, I faced many bad weather conditions, political movements, sickness, and COVID-19. But I never gave up; I participated in all the classes, offline and online. I study without any help from a home tutor or coaching centre. So that's why my college gave me this award. <a href="images_Shami/award.jpg" target="_blank"><i class="fas fa-link" id="gwd-link-icon"></i></a></li>
+
+                            <li><span>Called for an interview on a live show</span><br>I won the International Hackathon as a college student and without a team. So I was called for a live interview to inspire other students.
+                                <a href="https://www.facebook.com/daffodilcollege/videos/4075828419204555" target="_blank"><i class="fas fa-link" id="gwd-link-icon"></i></a></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="edutation">
+                        <ul>
+                            <li><span>Computer Science & Engineering (CSE)</span><br>Brac University</li>
+
+                            <li><span>HSC (2021)</span><br> Daffodil International College</li>
+
+                            <li><span>SSC (2019)</span><br>Dhanmondi Government Boys' High School</li>
+
+                            <li><span>Language Proficiency</span><br>
+                              <ul>Bangla</ul>
+                              <ul>English</ul>
+                              <ul>Hindi</ul>
+                              <ul>Urdu</ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------services-------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div style="cursor: pointer;">
+                <a href="websites.html">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designing</h2>
+                <p>Here are some examples of my web projects. All of these are created using HTML, CSS, and JavaScript.</p>
+                <a href="websites.html" target="_blank"><a href="websites.html">Learn more</a>
+                </a>
+            </div>
+            <div style="cursor: pointer;">
+                <a href="graphic.html">
+                <i class="fa-solid fa-crop"></i>
+                <h2>Graphic Designing</h2>
+                <p>As a designer, I have received many awards. I used different software and apps to create all my designs. Some of my work can be found here.</p>
+                <a href="graphic.html" target="_blank"><a href="websites.html">Learn more</a>
+                </a>
+            </div>
+            <div style="cursor: pointer;">
+                <a href="https://www.youtube.com/@BudgeT4YoU" target="_blank">
+                <i class="fas fa-bullhorn"></i>
+                <h2>Digital Marketing</h2>
+                <p>I have worked as a content creator at YouTube since 2016. I earned my first wages in this field. Here is the link to my YouTube channel.   Additionally, I made money on other digital platforms like Facebook and Instagram.</p>
+                <a href="https://www.youtube.com/@BudgeT4YoU" target="_blank"><a href="websites.html">Learn more</a>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------Portfolio-------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images_Shami/more-websites.jpg" alt="">
+                <div class="layer">
+                    <h3>Web projects</h3>
+                    <p>Here are some examples of my web projects. All of these are created using HTML, CSS, and JavaScript.</p>
+                    <a href="websites.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images_Shami/more-robotics.jpg" alt="">
+                <div class="layer">
+                    <h3>Robotics</h3>
+                    <p>My preferred topic is robotics. I developed lots of work and took first place honours in several regional, national, and international competitions. For more info, click here.</p>
+                    <a href="robotics.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images_Shami/more-designs.jpg" alt="">
+                <div class="layer">
+                    <h3>Art & Designing</h3>
+                    <p>As a designer, I have received many awards. I used different software and apps to create all my designs. Some of my work can be found here.</p>
+                    <a href="graphic.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="more.html" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------------contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>shamikhan4983@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+8801734820603</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/shamiislamkhan/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Shamikh08702902?fbclid=IwAR3KVPsmkzyzN278NzhClxV1p8IXmBz_z5B88xN0me7ICE1qyfJSWPHKIIc"target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/shami_islam_khan/?hl=en"target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Shami. Made with <i class="fa-solid fa-heart"></i> by Shami Islam Khan</p>
+    </div>
+</div>
+
+
+
+    <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyxJk9JYHnScaJfov11W6x3ZaPCQAkrIKx5L8H9Wn1HK70_wJ_PH1NYKayfx9pk7EvF/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000);
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <!-- ----------Type affect shami---------- -->
+   <script>
+    var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+   </script>
+  <!-- ----------Type affect End---------- -->
+
+
+
+</body>
+</html>
